@@ -1,13 +1,13 @@
 /**
  *
- * @author Your Name
+ * @author Danny Jones
  */
 
 public class HelloWorld {
 
     public static void main(String[] args) {
-        Class c1 = new Class1();
-        Class c2 = new Class2();
+        Class1 c1 = new Class1();
+        Class2 c2 = new Class2();
         System.out.println("Hello, World!");
     }
     
@@ -15,4 +15,12 @@ public class HelloWorld {
         // v1.0
     }
 
+    private void f2() {
+        // v2.0
+    }
+
+    private void f3() {
+        // v3.0
+    }
+    
 }
